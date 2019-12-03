@@ -22,7 +22,7 @@ import JsonEncoder from '../JsonEncoder/index.js'
  * @returns {String}
  *
  */
-const wsProtocol = (typeof window !== 'undefined' && window.location.protocol === 'https:') ? 'wss' : 'ws'
+const wsProtocol = 'wss'
 
 /**
  * Connection class is used to make a TCP/Socket connection
